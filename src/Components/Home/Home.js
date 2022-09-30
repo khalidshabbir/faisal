@@ -5,15 +5,17 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import Slick from '../Slickslider/Slick';
 import Whatsapp from '../Whatsapp';
+import Slider from "react-slick";
+import Team from '../Team/Team';
 const Home = () => {
-
+ 
     return (
         <>
 
 
             <div>
                 <Navbar />
-              <Whatsapp/>
+                <Whatsapp />
                 {/* Slider Start */}
                 <section className="banner d-flex align-items-center">
                     <div className="banner-img-part" />
@@ -117,6 +119,94 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <section className='pt-0 mb-5'>
+                    <div className="container">
+                        <div className=" ">
+                            <div className="title wow fadeInUp ">
+                                <h2> service</h2>
+                                <h1>Optimize Every Touchpoint in the Customer Experience</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<br /> Ipsum has been the industry's </p>
+                            </div>
+                        </div>
+                        <div className="row about_row  py-40">
+                            {/*#about-text start */}
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-1.png" />
+                                    </div>
+                                    <h2 className="unify"> Marketing </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the <br /> readable.</p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default btn_text_cap   wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-2.png" />
+                                    </div>
+                                    <h2 className="unify"> Analyze </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the<br /> readable. </p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default  btn_text_cap wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-3.png" />
+                                    </div>
+                                    <h2 className="unify"> Marketing </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the<br /> readable. </p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default btn_text_cap wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-3.png" />
+                                    </div>
+                                    <h2 className="unify"> Marketing </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the<br /> readable. </p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default btn_text_cap wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-3.png" />
+                                    </div>
+                                    <h2 className="unify"> Marketing </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the<br /> readable. </p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default btn_text_cap wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
+                                <div className="service-1">
+                                    <div className="servise-top wow fadeInUp">
+                                        <img src="images2/icone-3.png" />
+                                    </div>
+                                    <h2 className="unify"> Marketing </h2>
+                                    <p className="bottom-s">It is a long established fact that a reader will be distracted by the<br /> readable. </p>
+                                    <div className="top-banner wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                                        <a id="#services" href="#services" className="btn btn-default btn_text_cap wow fadeInUp  js-scroll-trigger" data-wow-delay=" 0.5s" style={{ visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInUp' }}><span className="skew_14">Learn more </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*#End service-text  */}
+                        </div>
+                    </div>
+
+                </section>
                 <section className="section cta">
                     <div className="container">
                         <div className="row">
@@ -130,6 +220,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <Slick />
                 {/* section portfolio start */}
                 <section className="section portfolio pb-0">
                     <div className="container">
@@ -146,7 +237,7 @@ const Home = () => {
                         <div className="row portfolio-gallery">
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/1.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item"><i className="ti-link" /></div>
                                         <div className="portfolio-item-content">
@@ -158,7 +249,7 @@ const Home = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/2.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item">
                                             <i className="ti-link" />
@@ -172,7 +263,7 @@ const Home = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/3.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item">
                                             <i className="ti-link" />
@@ -186,7 +277,7 @@ const Home = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/4.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item">
                                             <i className="ti-link" />
@@ -200,7 +291,7 @@ const Home = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative  mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/5.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item">
                                             <i className="ti-link" />
@@ -214,7 +305,7 @@ const Home = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="portflio-item position-relative mb-4">
-                                <NavLink className="nav-link" to="/portfoliodetails">
+                                    <NavLink className="nav-link" to="/portfoliodetails">
                                         <img src="images/portfolio/6.jpg" alt className="img-fluid w-100" />
                                         <div className="overlay-item">
                                             <i className="ti-link" />
@@ -264,8 +355,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+            
                 {/* section Counter End  */}
-                <Slick />
+               <Team/>
                 {/* footer Start */}
                 <Footer />
             </div>

@@ -1,11 +1,10 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
-/*=== MEDIA QUERY ===*/
+:root {
+  --darkp: #6871f4;
+  --lightp: #6871f4;
+  --gradiant: linear-gradient(to right top ,#6871f4,#6871f4,#6871f48f,#265db9 ,#265db9b0 )!important;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500,600,700|Montserrat:900,700");
 html {
   overflow-x: hidden;
@@ -72,7 +71,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: #FF715B;
+  background:var(--darkp);
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -83,7 +82,7 @@ input[type=email], input[type=password], input[type=text], input[type=tel] {
 }
 input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
   box-shadow: none;
-  border: 1px solid #FF715B;
+  border: 1px solid var(--darkp);
 }
 
 .form-control {
@@ -92,7 +91,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #FF715B;
+  border: 1px solid var(--darkp);
 }
 
 .py-7 {
@@ -122,35 +121,35 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main {
-  background: #FF715B;
+  background: var(--darkp);
   color: #fff;
-  border-color: #FF715B;
+  border-color: var(--darkp);
 }
 .btn-main:hover {
-  color: #FF715B;
+  color: var(--lightp);
   background: transparent;
 }
 
 .btn-main-2 {
-  background: #FF715B;
+  background: var(--darkp);
   color: #fff;
-  border-color: #FF715B;
+  border-color: var(--darkp);
 }
 .btn-main-2:hover {
-  color: #FF715B;
+  color: var(--darkp);
   background: transparent;
-  border-color: #FF715B;
+  border-color: var(--darkp);
 }
 
 .btn-solid-border {
-  border: 2px solid #FF715B;
+  border: 2px solid var(--darkp);
   background: transparent;
   color: #111;
 }
 .btn-solid-border:hover {
-  border: 2px solid #FF715B;
+  border: 2px solid var(--darkp);
   color: #fff;
-  background: #FF715B;
+  background: var(--darkp);
 }
 
 .btn-transparent {
@@ -169,9 +168,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #111;
 }
 .btn-white:hover {
-  background: #FF715B;
+  background: var(--darkp);
   color: #fff;
-  border-color: #FF715B;
+  border-color: var(--darkp);
 }
 
 .btn-solid-white {
@@ -200,15 +199,15 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary {
-  background: #FF715B;
+  background: var(--darkp);
 }
 
 .bg-primary-dark {
-  background: #ff4528;
+  background: var(--darkp);
 }
 
 .bg-primary-darker {
-  background: #f42100;
+  background: var(--darkp);
 }
 
 .bg-dark {
@@ -216,7 +215,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-gradient {
-  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
+  background-image: var(--gradiant);
   background-repeat: repeat-x;
 }
 
@@ -241,7 +240,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .subtitle {
-  color: #FF715B;
+  color: var(--lightp);
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -300,7 +299,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .navlink:focus, a:hover {
-  color: #FF715B;
+  color: var(--darkp);
   text-decoration: none;
 }
 
@@ -474,7 +473,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .dropdown-item:hover {
-  background: #FF715B;
+  background: var(--darkp);
   color: #fff;
 }
 
@@ -626,7 +625,7 @@ ul.dropdown-menu li {
 }
 
 .text-color {
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 @media (max-width: 480px) {
@@ -672,7 +671,7 @@ ul.dropdown-menu li {
   font-size: 50px;
 }
 .about-item a {
-  color: #FF715B;
+  color: var(--darkp);
   font-weight: 500;
 }
 .about-item .icon {
@@ -704,14 +703,14 @@ ul.dropdown-menu li {
 }
 .icon-block i {
   font-size: 35px;
-  background: rgba(239, 50, 58, 0.08);
+  background: rgba(122, 50, 239, 0.08);
   width: 70px;
   height: 70px;
   text-align: center;
   padding-top: 16px;
   border-radius: 10px;
   display: inline-block;
-  color: #FF715B;
+  color: var(--darkp);
 }
 .icon-block h5 {
   margin-top: 25px;
@@ -726,7 +725,7 @@ ul.dropdown-menu li {
   color: #111;
 }
 .feature-list ul li i {
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 .video-img {
@@ -749,7 +748,7 @@ ul.dropdown-menu li {
   width: 100px;
   height: 100px;
   background: #fff;
-  color: #FF715B;
+  color: var(--darkp);
   border-radius: 100%;
   text-align: center;
   display: inline-block;
@@ -791,7 +790,7 @@ ul.dropdown-menu li {
 }
 
 .counter {
-  background: #FF715B;
+  background: var(--darkp);
 }
 .counter .counter-item h2 {
   color: #fff;
@@ -809,7 +808,7 @@ ul.dropdown-menu li {
   height: 100px;
   border-radius: 100%;
   color: #fafafa;
-  background: #FF715B;
+  background: var(--darkp);
   display: inline-block;
   padding-top: 28px;
 }
@@ -830,7 +829,7 @@ ul.dropdown-menu li {
   line-height: 1.1;
   margin-right: 20px;
   float: left;
-  color: #FF715B;
+  color: var(--lightp);
 }
 .service-item-list p {
   padding-left: 50px;
@@ -940,7 +939,7 @@ ul.dropdown-menu li {
 }
 
 .text-color-primary {
-  color: #FF715B;
+  color: var(--lightp);
 }
 
 .testimonial-wrap {
@@ -1008,7 +1007,7 @@ ul.dropdown-menu li {
 }
 .pricing-block {
   padding: 20px 0px 50px 0px;
-  border-top: 7px solid #FF715B;
+  border-top: 7px solid var(--darkp);
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border: 0px;
@@ -1058,7 +1057,7 @@ ul.dropdown-menu li {
   width: 0%;
   position: absolute;
   transition: all 0.25s cubic-bezier(0.86, 0, 0.07, 1);
-  background: rgba(255, 113, 91, 0.98);
+  background: var(--darkp);
   opacity: 0;
   overflow: hidden;
 }
@@ -1202,7 +1201,7 @@ ul.dropdown-menu li {
   margin-right: 10px;
 }
 .nav-links .page-numbers:hover {
-  background: #FF715B;
+  background: var(--darkp);
   color: #fff;
 }
 
@@ -1228,7 +1227,7 @@ ul.dropdown-menu li {
   padding: 40px;
   font-style: italic;
   background: #f5f6ff;
-  border-left: 5px solid #FF715B;
+  border-left: 5px solid var(--darkp);
   margin: 25px 0px;
 }
 
@@ -1313,7 +1312,7 @@ ul.dropdown-menu li {
   font-weight: 500;
 }
 .post-comments .comment-author a {
-  color: #FF715B;
+  color: var(--darkp);
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1324,7 +1323,7 @@ ul.dropdown-menu li {
   font-size: 12px;
 }
 .post-comments .comment-button {
-  color: #FF715B;
+  color: var(--darkp);
   display: inline-block;
   margin-left: 5px;
   font-size: 12px;
@@ -1334,7 +1333,7 @@ ul.dropdown-menu li {
   display: inline-block;
 }
 .post-comments .comment-button:hover {
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 .post-excerpt {
@@ -1352,7 +1351,7 @@ ul.dropdown-menu li {
 .post-excerpt blockquote.quote-post p {
   line-height: 30px;
   font-size: 20px;
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 .single-blog {
@@ -1379,7 +1378,7 @@ ul.dropdown-menu li {
   color: #000;
 }
 .next-prev a:hover {
-  color: #FF715B;
+  color: var(--darkp);
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1398,7 +1397,7 @@ ul.dropdown-menu li {
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 .comments-section {
@@ -1442,7 +1441,7 @@ ul.dropdown-menu li {
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #FF715B;
+  color: var(--darkp);
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1463,7 +1462,7 @@ ul.dropdown-menu li {
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #FF715B;
+  border: 1px solid var(--darkp);
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main {
   height: auto;
@@ -1494,7 +1493,7 @@ ul.dropdown-menu li {
   transition: all 0.3s ease;
 }
 .sidebar-widget.category ul li a:hover {
-  color: #FF715B;
+  color: var(--darkp);
   padding-left: 5px;
 }
 .sidebar-widget.category ul li span {
@@ -1517,7 +1516,7 @@ ul.dropdown-menu li {
 }
 .sidebar-widget.tags a:hover {
   color: #fff;
-  background: #FF715B;
+  background: var(--darkp);
 }
 
 .search-form {
@@ -1549,7 +1548,7 @@ ul.dropdown-menu li {
   color: #fff;
 }
 .logo span {
-  color: #FF715B;
+  color: var(--darkp);
 }
 
 .widget h4 {
@@ -1583,6 +1582,6 @@ ul.dropdown-menu li {
   margin-bottom: 18px;
 }
 .widget-contact h6 i {
-  color: #FF715B;
+  color: var(--darkp);
 }
 /*# sourceMappingURL=style.css.map */

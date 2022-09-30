@@ -4,6 +4,7 @@ import Slick from '../Slickslider/Slick'
 import ReactPlayer from 'react-player'
 import { NavLink } from 'react-router-dom'
 import Whatsapp from '../Whatsapp'
+import Team from '../Team/Team'
 const Aboutus = () => {
   return (
     <>
@@ -86,48 +87,7 @@ const Aboutus = () => {
                       </div>
                   </div>
               </section>
-              <section className="section team">
-                  <div className="container">
-                      <div className="row justify-content-center">
-                          <div className="col-lg-6">
-                              <div className="heading text-center mb-50">
-                                  <h2 className="mb-4">Our Team</h2>
-                                  <p>Today’s users expect effortless experiences. Don’t let essential people and processes stay stuck in the past. Speed it up, skip the hassles</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div className="row">
-                          <div className="col-lg-3 col-md-6 col-sm-6">
-                              <div className="team-block mb-5 mb-lg-0">
-                                  <img src="images/team/03-1.jpg" alt className="img-fluid w-100" />
-                                  <h4 className="mt-4 mb-0">John Marshal</h4>
-                                  <p>Founder</p>
-                              </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6 col-sm-6">
-                              <div className="team-block mb-5 mb-lg-0">
-                                  <img src="images/team/01-3.jpg" alt className="img-fluid w-100" />
-                                  <h4 className="mt-4 mb-0">Marshal Root</h4>
-                                  <p>Marketing Head</p>
-                              </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6 col-sm-6">
-                              <div className="team-block mb-5 mb-lg-0">
-                                  <img src="images/team/03-1.jpg" alt className="img-fluid w-100" />
-                                  <h4 className="mt-4 mb-0">Siamon john</h4>
-                                  <p>Co-ordinator</p>
-                              </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6 col-sm-6">
-                              <div className="team-block">
-                                  <img src="images/team/01-3.jpg" alt className="img-fluid w-100" />
-                                  <h4 className="mt-4 mb-0">Rishat Ahmed</h4>
-                                  <p>Senior Developer</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
+            <Team/>
               <section className="section awards bg-light">
                   <div className="container">
                       <div className="row">
